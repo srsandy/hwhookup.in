@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flip box</title>
+	<style type="text/css">
+		.contian {
+			position: relative;
+			top: 25%;
+			left: 25%;
+			border: 1px dashed black;
+			height: 200px;
+			max-width: 500px;
+			 transition: 0.4s;
+			transform-style: preserve-3d;
+		}
+
+		
+
+		.contian:hover {
+  transform: rotatey(-180deg); }
+
+    
+
+     body {
+     	background-color: #f2f2f2;
+     }
+
+     h1, pre, .contian {
+backface-visibility: hidden;
+width: 100%;
+  height: 100%;
+  position: absolute;
+     }
+
+     .contian , h1 {
+     	z-index: 3;
+     }
+	</style>
+</head>
+<body>
+
+<div class="contian">
+	<h1>Sandeep Ranjan</h1>
+	<pre>Will be someone soon</pre>
+</div>
+
+</body>
+</html>

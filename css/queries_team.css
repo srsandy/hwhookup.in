@@ -1,0 +1,87 @@
+
+
+
+
+
+@media only screen and (max-width: 375px){
+	
+	.col {
+		
+		max-width: 100% !important;
+		margin-left: 10px !important;
+	}
+
+	.team {
+		width: 100% !important;
+	}
+
+	 .box img {
+	 	position: relative !important;
+	 	left: -115px !important;
+	 }
+
+
+	
+
+}
+@media only screen and (max-width: 480px) {
+
+
+	h1 {
+      		font-size: 0.2em;
+      		margin-left: -117px;
+      		
+
+      	}
+
+	blockquote{
+		max-width: 250px;
+	}
+
+	cite {
+		max-width: 250px;
+		margin-left:  -2000px !important;
+		margin-top: 10px !important;
+	}
+
+	.team {
+      		max-width: 90px;  
+	        margin: 0 auto; 
+
+      	}
+     .box img {
+      		margin-left: 120px !important;
+      		 
+     }
+	
+}
+
+
+@media only screen and (max-width: 770px) {
+		blockquote {
+  			padding: 2%;
+  			line-height: 1.5;
+ 			margin-top: auto;
+  			float: left;
+		}
+		.box img{
+			position: relative;
+			left: -55px;
+		}
+}
+	
+
+
+@media only screen and (max-width: 1023px) {
+	
+	
+	
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+
+.row { padding: 0 2%; } /*113201698356 */
+}
